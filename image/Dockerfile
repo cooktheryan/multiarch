@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:latest
+FROM docker.io/fedora 
 USER 0
 
 RUN dnf -y install httpd && dnf clean all
